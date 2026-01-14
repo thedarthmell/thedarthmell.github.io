@@ -1,0 +1,117 @@
+baseURL = "https://melthegd1.github.io/"
+languageCode = "en-us"
+title = "Meltem Yurttas"
+theme = "blowfish"
+
+[params]
+  defaultTheme = "dark"
+  colorScheme = "blowfish"
+
+
+[languages.en.params.author]
+  name = "Meltem Yurttas"
+  image = "profile.jpg"
+  headline = "Game Designer | Content Creator | Mentor"
+  bio = "Building worlds in engines and communities on social media."
+  links = [
+    { icon = "instagram", link = "https://instagram.com/thedarthmel" },
+    { icon = "youtube", link = "https://youtube.com/@thedarthmel" },
+    { icon = "twitter", link = "https://tiktok.com/@thedarthmel" }, 
+    { icon = "linkedin", link = "https://linkedin.com/in/meltemyurttas" },
+    { icon = "itch-io", link = "https://itch.io/profile/thedarthmel" }
+  ]
+
+
+[languages.en.params.home.profile]
+  enable = true
+  showName = true
+  showBio = true
+  showLinks = true
+
+[languages.en.params.home]
+  showRecent = true
+  section = "portfolio" 
+
+[menu]
+  # --- 1. ANA MENU: PROJELER (PROJECTS) ---
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/portfolio/"
+    weight = 10
+  
+  [[menu.main]]
+    parent = "projects" 
+    name = "All Games (Itch.io)"
+    url = "/portfolio/games/"
+    weight = 1
+
+  [[menu.main]]
+    parent = "projects"
+    identifier = "prototypes"
+    name = "Prototypes & Jams"
+    url = "/portfolio/prototypes/"
+    weight = 2
+
+ 
+  [[menu.main]]
+    identifier = "content"
+    name = "Content"
+    url = "/blog/" 
+    weight = 20
+
+  [[menu.main]]
+    parent = "content"
+    identifier = "videos"
+    name = "Videos & Devlogs"
+    url = "/blog/videos/"
+    weight = 1
+
+
+  [[menu.main]]
+    identifier = "community"
+    name = "Community"
+    url = "/events/"
+    weight = 30
+
+  [[menu.main]]
+    parent = "community"
+    identifier = "education"
+    name = "Education"
+    url = "/education/"
+    weight = 1
+
+  [[menu.main]]
+    parent = "community"
+    identifier = "talks"
+    name = "Talks & Mentorship"
+    url = "/events/"
+    weight = 2
+
+
+  [[menu.main]]
+    identifier = "library"
+    name = "Library"
+    url = "/reviews/"
+    weight = 40
+
+  [[menu.main]]
+    parent = "library"
+    identifier = "analysis"
+    name = "Game Analysis"
+    url = "/reviews/"
+    weight = 1
+    
+  [[menu.main]]
+    parent = "library"
+    identifier = "favorites"
+    name = "Mel's Favorites"
+    url = "/library/favorites/" 
+    weight = 2
+
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About & CV"
+    url = "/about/"
+    weight = 50

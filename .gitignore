@@ -1,0 +1,13 @@
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.csproj
+
+# Hugo temp files
+public/
+resources/
+.hugo_build.lock
