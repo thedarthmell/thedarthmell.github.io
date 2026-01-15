@@ -4,6 +4,9 @@ description: "Game Design tips, industry insights, and more."
 cascade:
   showDate: false
   showAuthor: false
+_build:
+  list: never     # BU SATIR: Listelerde gizle (Sadece menüden erişilsin)
+  render: always  # BU SATIR: Sayfayı oluştur
 ---
 
 Check out my latest shorts and quick tips from Instagram. This feed updates automatically! 👇
