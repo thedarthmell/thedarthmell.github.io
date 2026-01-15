@@ -1,24 +1,10 @@
 ﻿---
-title: "Quick Tips & Shorts"
-description: "Game Design tips, industry insights, and more."
+title: "YouTube (Deep Dive)"
+description: "Long-form analyses and tutorials."
 cascade:
-  showDate: false
+  showDate: true
   showAuthor: false
 _build:
-  list: never     # BU SATIR: Listelerde gizle (Sadece menüden erişilsin)
-  render: always  # BU SATIR: Sayfayı oluştur
+  list: never      # Blog listesinde çıkma
+  render: always   # Ama kendi sayfan olsun
 ---
-
-Check out my latest shorts and quick tips from Instagram. This feed updates automatically! 👇
-
-<behold-widget feed-id="ZPiRWkNxY6ji3mB6HmBd"></behold-widget>
-<script>
-  (() => {
-    const d=document,s=d.createElement("script");s.type="module";
-    s.src="https://w.behold.so/widget.js";d.head.append(s);
-  })();
-</script>
-
-<br>
-
-[Follow me on Instagram for more!](https://www.instagram.com/thedarthmel)
