@@ -1,10 +1,21 @@
----
-title: "Videos & Devlogs"
-date: 2026-01-14
-description: "My video essays and game development logs."
+﻿---
+title: "Quick Tips & Shorts"
+description: "Game Design tips, industry insights, and more."
 cascade:
-  showDate: true
-  showReadingTime: true
+  showDate: false
+  showAuthor: false
 ---
 
-Here you can find my video essays about the game industry and my personal devlogs.
+Check out my latest shorts and quick tips from Instagram. This feed updates automatically! 👇
+
+<behold-widget feed-id="ZPiRWkNxY6ji3mB6HmBd"></behold-widget>
+<script>
+  (() => {
+    const d=document,s=d.createElement("script");s.type="module";
+    s.src="https://w.behold.so/widget.js";d.head.append(s);
+  })();
+</script>
+
+<br>
+
+[Follow me on Instagram for more!](https://www.instagram.com/thedarthmel)

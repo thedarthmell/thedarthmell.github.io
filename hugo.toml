@@ -60,12 +60,18 @@ theme = "blowfish"
     url = "/blog/" 
     weight = 20
 
-  [[menu.main]]
-    parent = "content"
-    identifier = "videos"
-    name = "Videos & Devlogs"
-    url = "/blog/videos/"
-    weight = 1
+ # YENÃ„Â° EKLENENLER Ã¢Å“Â¨
+[[menu.main]]
+  identifier = "youtube"
+  name = "YouTube (Deep Dive)"
+  url = "/blog/videos/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "shorts"
+  name = "Shorts & Tips"
+  url = "/reels/"
+  weight = 30
 
 
   [[menu.main]]
@@ -115,3 +121,8 @@ theme = "blowfish"
     name = "About & CV"
     url = "/about/"
     weight = 50
+
+    [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
