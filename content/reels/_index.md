@@ -1,6 +1,7 @@
 ﻿---
 title: "Quick Tips & Shorts"
 description: "Game Design tips, industry insights, and more."
+layout: "simple"      
 cascade:
   showDate: false
   showAuthor: false
@@ -9,7 +10,7 @@ _build:
   render: always
 ---
 
-Check out my latest shorts and quick tips from Instagram. This feed updates automatically! 👇
+Check out my latest shorts and quick tips from Instagram & TikTok. This feed updates automatically! 👇
 
 <behold-widget feed-id="ZPiRWkNxY6ji3mB6HmBd"></behold-widget>
 <script>
