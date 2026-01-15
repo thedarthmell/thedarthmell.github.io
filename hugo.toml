@@ -33,15 +33,15 @@ theme = "blowfish"
   section = "portfolio" 
 
 [menu]
-  # --- 1. ANA MENU: PROJELER (PROJECTS) ---
+  # --- 1. PROJECTS (Portfolio) ---
   [[menu.main]]
     identifier = "projects"
     name = "Projects"
     url = "/portfolio/"
     weight = 10
-  
+
   [[menu.main]]
-    parent = "projects" 
+    parent = "projects"
     name = "All Games (Itch.io)"
     url = "/portfolio/games/"
     weight = 1
@@ -53,27 +53,29 @@ theme = "blowfish"
     url = "/portfolio/prototypes/"
     weight = 2
 
- 
+  # --- 2. CONTENT (Main Dropdown) ---
+  # YouTube ve Shorts buraya bağlandı
   [[menu.main]]
-    identifier = "content"
+    identifier = "content-main"
     name = "Content"
-    url = "/blog/" 
+    url = "/blog/"
     weight = 20
 
- # YENÃ„Â° EKLENENLER Ã¢Å“Â¨
-[[menu.main]]
-  identifier = "youtube"
-  name = "YouTube (Deep Dive)"
-  url = "/blog/videos/"
-  weight = 20
+  [[menu.main]]
+    parent = "content-main"
+    identifier = "youtube"
+    name = "YouTube (Deep Dive)"
+    url = "/blog/videos/"
+    weight = 1
 
-[[menu.main]]
-  identifier = "shorts"
-  name = "Shorts & Tips"
-  url = "/reels/"
-  weight = 30
+  [[menu.main]]
+    parent = "content-main"
+    identifier = "shorts"
+    name = "Shorts & Tips"
+    url = "/reels/"
+    weight = 2
 
-
+  # --- 3. COMMUNITY ---
   [[menu.main]]
     identifier = "community"
     name = "Community"
@@ -94,7 +96,7 @@ theme = "blowfish"
     url = "/events/"
     weight = 2
 
-
+  # --- 4. LIBRARY ---
   [[menu.main]]
     identifier = "library"
     name = "Library"
@@ -115,7 +117,7 @@ theme = "blowfish"
     url = "/library/favorites/" 
     weight = 2
 
-
+  # --- 5. ABOUT & CV ---
   [[menu.main]]
     identifier = "about"
     name = "About & CV"
