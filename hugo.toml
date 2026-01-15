@@ -1,6 +1,6 @@
 baseURL = "https://thedarthmell.github.io/"
 languageCode = "en-us"
-title = "Meltem Yurttas"
+title = "Mel Yurttas"
 theme = "blowfish"
 
 [params]
@@ -9,8 +9,8 @@ theme = "blowfish"
 
 
 [languages.en.params.author]
-  name = "Meltem Yurttas"
-  image = "profile.jpg"
+  name = "Mel Yurttas"
+  image = "ben.jpg"
   headline = "Game Designer | Content Creator | Mentor"
   bio = "Building worlds in engines and communities on social media."
   links = [
