@@ -52,14 +52,14 @@ theme = "blowfish"
     url = "/portfolio/prototypes/"
     weight = 2
 
-  # --- 2. CONTENT (Çatı Menü) ---
+  # --- 2. CONTENT (Ã‡atÄ± MenÃ¼) ---
   [[menu.main]]
     identifier = "content-main"
     name = "Content"
-    url = "/blog/"   # Ana tıklamada Blog'a veya genel listeye gider
+    url = "/blog/"   # Ana tÄ±klamada Blog'a veya genel listeye gider
     weight = 20
 
-  # 2.1 Blog (Articles) - YENİ SEKME
+  # 2.1 Blog (Articles) - YENÄ° SEKME
   [[menu.main]]
     parent = "content-main"
     identifier = "blog-posts"
@@ -67,12 +67,12 @@ theme = "blowfish"
     url = "/blog/"
     weight = 1
 
-  # 2.2 YouTube (Artık ayrı klasörde)
+  # 2.2 YouTube (ArtÄ±k ayrÄ± klasÃ¶rde)
   [[menu.main]]
     parent = "content-main"
     identifier = "youtube"
     name = "YouTube (Deep Dive)"
-    url = "/videos/"    # DİKKAT: Artık /blog/videos değil, direkt /videos/
+    url = "/videos/"    # DÄ°KKAT: ArtÄ±k /blog/videos deÄŸil, direkt /videos/
     weight = 2
 
   # 2.3 Shorts
