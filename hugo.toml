@@ -15,9 +15,8 @@ theme = "blowfish"
   bio = "Building worlds in engines and communities on social media."
   links = [
     { icon = "instagram", link = "https://instagram.com/thedarthmel" },
-    { icon = "youtube", link = "https://youtube.com/@thedarthmel" },
-    { icon = "twitter", link = "https://tiktok.com/@thedarthmel" }, 
-    { icon = "linkedin", link = "https://linkedin.com/in/meltemyurttas" },
+    { icon = "youtube", link = "https://youtube.com/@melthedarthmel" },
+    { icon = "linkedin", link = "https://www.linkedin.com/in/meltem-yurtta%C5%9F/" },
     { icon = "itch-io", link = "https://itch.io/profile/thedarthmel" }
   ]
 
