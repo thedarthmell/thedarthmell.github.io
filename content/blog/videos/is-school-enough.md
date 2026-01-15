@@ -1,6 +1,6 @@
 ﻿---
 title: "Is Going to School Enough to Become a Game Designer?"
-date: 2026-01-15
+date: 2024-05-29
 draft: false
 tags: ["Career", "Game Design", "Industry Talks"]
 summary: "Sharing my 6-year journey in the game industry. Is formal education enough, or do we need more?"
