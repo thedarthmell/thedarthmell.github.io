@@ -32,7 +32,7 @@ theme = "blowfish"
   section = "portfolio" 
 
 [menu]
-  # --- 1. PROJECTS (Portfolio) ---
+  # --- 1. PROJECTS ---
   [[menu.main]]
     identifier = "projects"
     name = "Projects"
@@ -52,27 +52,36 @@ theme = "blowfish"
     url = "/portfolio/prototypes/"
     weight = 2
 
-  # --- 2. CONTENT (Main Dropdown) ---
-  # YouTube ve Shorts buraya bağlandı
+  # --- 2. CONTENT (Çatı Menü) ---
   [[menu.main]]
     identifier = "content-main"
     name = "Content"
-    url = "/blog/"
+    url = "/blog/"   # Ana tıklamada Blog'a veya genel listeye gider
     weight = 20
 
+  # 2.1 Blog (Articles) - YENİ SEKME
+  [[menu.main]]
+    parent = "content-main"
+    identifier = "blog-posts"
+    name = "Blog (Articles)"
+    url = "/blog/"
+    weight = 1
+
+  # 2.2 YouTube (Artık ayrı klasörde)
   [[menu.main]]
     parent = "content-main"
     identifier = "youtube"
     name = "YouTube (Deep Dive)"
-    url = "/blog/videos/"
-    weight = 1
+    url = "/videos/"    # DİKKAT: Artık /blog/videos değil, direkt /videos/
+    weight = 2
 
+  # 2.3 Shorts
   [[menu.main]]
     parent = "content-main"
     identifier = "shorts"
     name = "Shorts & Tips"
     url = "/reels/"
-    weight = 2
+    weight = 3
 
   # --- 3. COMMUNITY ---
   [[menu.main]]
@@ -101,13 +110,6 @@ theme = "blowfish"
     name = "Library"
     url = "/reviews/"
     weight = 40
-
-  [[menu.main]]
-    parent = "library"
-    identifier = "analysis"
-    name = "Game Analysis"
-    url = "/reviews/"
-    weight = 1
     
   [[menu.main]]
     parent = "library"
@@ -116,7 +118,7 @@ theme = "blowfish"
     url = "/library/favorites/" 
     weight = 2
 
-  # --- 5. ABOUT & CV ---
+  # --- 5. ABOUT ---
   [[menu.main]]
     identifier = "about"
     name = "About & CV"
