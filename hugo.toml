@@ -119,7 +119,7 @@ theme = "blowfish"
   [[menu.main]]
     parent = "library"
     identifier = "favorites"
-    name = "MelÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢s Favorites"
+    name = "Mel's Favorites"
     url = "/library/favorites/"
     weight = 2
 
