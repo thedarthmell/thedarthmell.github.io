@@ -1,5 +1,5 @@
 ﻿---
-title: "Meltem's Curated Library"
+title: "Mel's Curated Library"
 date: 2026-01-13
 draft: false
 summary: "The games, anime, and books that shaped my design philosophy."

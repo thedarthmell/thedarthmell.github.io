@@ -32,100 +32,100 @@ theme = "blowfish"
   section = "portfolio" 
 
 [menu]
-  # --- 1. PROJECTS ---
+  # --- 1. GAMES (The Core) ---
   [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/portfolio/"
+    identifier = "games"
+    name = "GAMES"
+    url = "/games/"
     weight = 10
 
   [[menu.main]]
-    parent = "projects"
-    name = "All Games (Itch.io)"
-    url = "/portfolio/games/"
+    parent = "games"
+    identifier = "pro-work"
+    name = "Professional Work"
+    url = "/games/professional/"
     weight = 1
 
   [[menu.main]]
-    parent = "projects"
+    parent = "games"
     identifier = "prototypes"
     name = "Prototypes & Jams"
-    url = "/portfolio/prototypes/"
+    url = "/games/prototypes/"
     weight = 2
 
-  # --- 2. CONTENT (Ã‡atÄ± MenÃ¼) ---
+  # --- 2. CONTENT (Media Hub) ---
   [[menu.main]]
-    identifier = "content-main"
-    name = "Content"
-    url = "/blog/"   # Ana tÄ±klamada Blog'a veya genel listeye gider
+    identifier = "content-hub"
+    name = "CONTENT"
+    url = "/creations/"
     weight = 20
 
-  # 2.1 Blog (Articles) - YENÄ° SEKME
   [[menu.main]]
-    parent = "content-main"
-    identifier = "blog-posts"
-    name = "Blog (Articles)"
-    url = "/blog/"
+    parent = "content-hub"
+    identifier = "essays"
+    name = "Essays & Deep Dives"
+    url = "/creations/essays/"
     weight = 1
 
-  # 2.2 YouTube (ArtÄ±k ayrÄ± klasÃ¶rde)
   [[menu.main]]
-    parent = "content-main"
-    identifier = "youtube"
-    name = "YouTube (Deep Dive)"
-    url = "/videos/"    # DÄ°KKAT: ArtÄ±k /blog/videos deÄŸil, direkt /videos/
-    weight = 2
-
-  # 2.3 Shorts
-  [[menu.main]]
-    parent = "content-main"
+    parent = "content-hub"
     identifier = "shorts"
     name = "Shorts & Tips"
-    url = "/reels/"
+    url = "/creations/shorts/"
+    weight = 2
+
+  [[menu.main]]
+    parent = "content-hub"
+    identifier = "blog"
+    name = "Blog"
+    url = "/creations/blog/"
     weight = 3
 
-  # --- 3. COMMUNITY ---
+  # --- 3. TALKS (Authority) ---
   [[menu.main]]
-    identifier = "community"
-    name = "Community"
-    url = "/events/"
+    identifier = "talks"
+    name = "TALKS"
+    url = "/talks/"
     weight = 30
 
   [[menu.main]]
-    parent = "community"
-    identifier = "education"
-    name = "Education"
-    url = "/education/"
+    parent = "talks"
+    identifier = "lectures"
+    name = "Guest Lectures & Panels"
+    url = "/talks/lectures/"
     weight = 1
 
   [[menu.main]]
-    parent = "community"
-    identifier = "talks"
-    name = "Talks & Mentorship"
-    url = "/events/"
+    parent = "talks"
+    identifier = "mentorship"
+    name = "Mentorship"
+    url = "/talks/mentorship/"
     weight = 2
 
-  # --- 4. LIBRARY ---
+  # --- 4. LIBRARY (Curator) ---
   [[menu.main]]
     identifier = "library"
-    name = "Library"
-    url = "/reviews/"
+    name = "LIBRARY"
+    url = "/library/"
     weight = 40
-    
+
+  [[menu.main]]
+    parent = "library"
+    identifier = "resources"
+    name = "Dev Resources"
+    url = "/library/resources/"
+    weight = 1
+
   [[menu.main]]
     parent = "library"
     identifier = "favorites"
-    name = "Mel's Favorites"
-    url = "/library/favorites/" 
+    name = "Mel’s Favorites"
+    url = "/library/favorites/"
     weight = 2
 
-  # --- 5. ABOUT ---
+  # --- 5. ABOUT (Persona) ---
   [[menu.main]]
     identifier = "about"
-    name = "About & CV"
+    name = "ABOUT"
     url = "/about/"
     weight = 50
-
-    [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
