@@ -8,6 +8,7 @@ cover:
   image: "/images/games/CALYPSO/calypso-header.jpg"
   alt: "Calypso: Brethren of the Coast Cover Art"
 ---
+![Calypso Header](/images/games/CALYPSO/calypso-header.jpg)
 
 **Calypso: Brethren of the Coast** is a cooperative third-person shooter (TPS) developed by **Madbyte Games** in Unreal Engine 5. Set in a post-apocalyptic world completely dominated by open seas, players team up to raid massive ships and navigate the complex relationships between surviving factions.
 

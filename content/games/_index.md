@@ -1,9 +1,7 @@
 ﻿---
-title: "Games & Portfolio"
-description: "My professional work, commercial titles, and experimental prototypes."
+title: "Prototypes & Jams"
+description: "Game jam entries and experimental mechanics."
 cascade:
-  showDate: false
+  showDate: true
   showAuthor: false
 ---
-
-Explore my professional projects and experimental prototypes below.
