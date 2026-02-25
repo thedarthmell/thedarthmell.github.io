@@ -1,7 +1,7 @@
 ---
 title: "Professional Work"
-description: "Commercial Titles"
+description: "Commercial titles and lead designer projects."
 cascade:
-  showDate: true
+  showDate: false
   showAuthor: false
 ---
