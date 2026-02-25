@@ -1,6 +1,5 @@
 ﻿---
 title: "Calypso: Brethren of the Coast"
-**Timeline:** 2024 - 2025 
 date: 2025-01-15
 draft: false
 tags: ["PC", "Steam", "Co-op", "TPS", "Unreal Engine 5", "Lead Game Designer", "System Design"]
