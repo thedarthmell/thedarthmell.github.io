@@ -38,4 +38,4 @@ Here are some glimpses into the flooded, dangerous world of Calypso:
 
 ### Check it out on Steam
 
-[🎮 View Calypso on Steam](https://store.steampowered.com/app/3854300/CALYPSO/)
+[View Calypso on Steam](https://store.steampowered.com/app/3854300/CALYPSO/)
